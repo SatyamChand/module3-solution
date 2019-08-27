@@ -1,0 +1,108 @@
+*{
+	box-sizing:border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #13f;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+.navbar{
+	border-radius:0;
+	border-bottom:solid 2px #555;
+	box-shadow:0 0 15px #222;
+}
+#navbar-brand{
+	position:relative;
+	height:80px;
+}
+
+#navbar-logo{
+	margin:0px 30px;
+	width:220px;
+	float:left;
+	font-family:Lucida Handwriting;
+	font-weight:bold;
+}
+
+#navbar-logo a{
+	color:#e22;
+}
+
+#navbar-logo a:hover{
+	text-decoration:none;
+}
+
+#navbar-brand button{
+	position:absolute;
+	bottom:0;
+	right:15px;
+}
+
+#main-body h2{
+	font-family: 'Algerian';
+	font-size:3em;
+	text-shadow:2px 2px 5px #111;
+}
+
+#food-tile-container{
+	margin:0;
+}
+
+#nav-list li{
+	text-align:center;
+	padding:5px;
+}
+
+#nav-list li:hover{
+	background-color:#ddd;
+}
+
+.food-tile{
+	background-color:#eee;
+	padding:20px;
+	margin-bottom:20px;
+	position:relative;
+	border-radius:3px;
+	box-shadow:0 0 15px #111;
+}
+
+.food-tile p{
+	margin-bottom:20px;
+}
+
+.food-tile span{
+	position:absolute;
+	right:10px;
+	bottom:5px;
+	clear:left;
+	margin:10px;
+}
+
+.food-tile span:hover{
+	border:solid 3px #bbb;
+	border-radius:15px;
+	right:7px;
+	bottom:2px;
+}
+
+.food-tile a{
+	color:#13f;
+	padding:5px;
+}
+
+.food-tile a:hover{
+	text-decoration:none;
+}
+
+h3{
+	font-size:1.3em;
+	margin:0 0 20px;
+	font-weight:bold;
+}
+
+.food-details{
+	font-size:0.8em;
+	text-align:justify;
+}
